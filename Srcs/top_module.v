@@ -108,7 +108,7 @@ module RISC_V_Multicycle (
         .RegWrite(RegWrite),
         .rs1(instruction[19:15]),
         .rs2(instruction[24:20]),
-        .rd(instruction[11:7]),
+        .rs3(instruction[11:7]),
         .Result(Result),
         .rd1(rd1),
         .rd2(rd2)
