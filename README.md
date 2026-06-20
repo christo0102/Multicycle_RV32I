@@ -59,7 +59,6 @@ I believe hardware is only as good as its verification. This entire design was s
 > **Factorial Program Execution Results**
 > The core's mathematical functionality and loop handling have been successfully verified by executing a Factorial computation program.
 
----
 
 ### 🚀 What's Next? (The Roadmap)
 
