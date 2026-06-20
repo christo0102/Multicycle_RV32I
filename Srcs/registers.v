@@ -5,7 +5,7 @@ module Register_file(
     input RegWrite,
     input wire [4:0] rs1,
     input wire [4:0] rs2,
-    input wire [4:0] rd,
+    input wire [4:0] rs3,
     input wire [31:0] Result,
     output wire [31:0] rd1,
     output wire [31:0] rd2
@@ -18,8 +18,8 @@ module Register_file(
             for (i = 0; i < 32; i = i + 1) begin
                 Register[i] <= 32'b0;
             end
-        end else if (RegWrite && (rd != 5'b0)) begin
-            Register[rd] <= Result;
+        end else if (RegWrite && (rs3 != 5'b0)) begin
+            Register[rs3] <= Result;
         end
     end
 
