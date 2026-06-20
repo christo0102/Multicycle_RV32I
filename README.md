@@ -59,9 +59,6 @@ I believe hardware is only as good as its verification. This entire design was s
 > **Factorial Program Execution Results**
 > The core's mathematical functionality and loop handling have been successfully verified by executing a Factorial computation program.
 
-*Video of FPGA Testing of the Factorial program:*
-[View FPGA Testing Drive Folder](https://drive.google.com/drive/folders/1ptxFVm4Eos_x-h_8EqsXcriIdKmZnF0q?usp=sharing)
- 
 ---
 
 ### 🚀 What's Next? (The Roadmap)
