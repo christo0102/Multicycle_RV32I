@@ -5,9 +5,6 @@
 Welcome! This project is a personal journey into the heart of computer architecture. Having successfully built the Single-Cycle variant, I have advanced the core into a fully synthesizable **Multicycle 32-bit RISC-V (RV32I)** processor core from the ground up using Verilog HDL.
 
 By transitioning to a multicycle architecture, the design breaks down instruction execution into distinct, smaller steps per clock cycle. This allows the core to share hardware resources (like using a single unified memory for both instructions and data) and paves the way for a much higher maximum clock frequency ($F_{max}$).
-
-The design is heavily inspired by the architectural blueprints in **"Digital Design and Computer Architecture (RISC-V Edition)" by Sarah L. Harris and David Money Harris**. It is a fully synthesizable core developed and tested targeting FPGA workflows.
-
 ---
 
 # Key Features
